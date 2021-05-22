@@ -1,0 +1,88 @@
+<?php
+
+return [
+    // ========== Login Page ========== // 
+
+    "ltitle"    => "Hesabınıza giriş yapın",
+    "email"     => "E-posta",
+    "password"  => "Şifre",
+    "login"     => "Giriş Yap",
+    "register"  => "Kayıt Ol",
+    "forgot"    => "Şifreni mi unuttun?",
+    "or"        => "yada",
+    "notmember" => "Üye değil misin?",
+
+    // ========== Register Page ========== // 
+
+    "rtitle"    => "Yeni Hesap Oluştur",
+    "rname"     => "İsim - Soyisim",
+    "prepeat"   => "Şifre (tekrar)",
+    "terms"     => "Şartlar ve Politikaları",
+    "kabul"     => "Kabul ediyorum",
+    "amember"   => "Zaten üye misin?",
+    "referance" => "Referans Kodu",
+
+    // ========== Home Page ========== // 
+
+    "balance"   => "TOKEN BAKİYESİ",
+    "walletid"  => "Cüzdan",
+    "logout"    => "Çıkış Yap",
+
+    // ========== Dashboard Page ========== // 
+
+    "dashboard" => "Anasayfa",
+    "app"       => "Uygulaması",
+    "trans"     => "İşlemler",
+    "refferal"  => "Referanslar",
+    "account"   => "Hesap",
+    "security"  => "Güvenlik",
+    "how"       => "Nasıl Satın Alabilirim?",
+    "faqs"      => "SSS",
+    "contact"   => "İletişim ve Destek",
+    "conmail"   => "Maili Onayla",
+    "kycdogru"  => "KYC doğrula",
+    "profile"   => "Profil",
+    "priv"      => "Gizlilik Politikası",
+    "termsof"   => "Satış Koşulları",
+    "identy"    => "Kimlik Doğrulama",
+    "identydes" => "Yönetmeliğe uymak için her katılımcının kimlik doğrulamasından (KYC) geçmesi gerekecektir. Bu nedenle, jeton satışımıza katılmak için lütfen hızlı ve güvenli doğrulama sürecimizi tamamlayın. Kimliğinizi doğrulamak için buradan ilerleyebilir ve ayrıca zaten gönderdiyseniz başvuru durumunuzu kontrol edebilirsiniz.",
+    "kycwait"   => "KYC Başvurunuz şuanda yetkililer tarafından inceleme aşamasında. Detaylara bakmak için aşağıdaki butona tıklayabilirsiniz.",
+    "kycwclick" => "Başvurumu İncele",
+    "kycred"    => "KYC başvurunuz red edilmiş. Aşağıdaki butona tıklayarak yeni bir başvuru yapabilirsiniz.",
+    "kycbutton" => "KYC başvurusu Yap",
+    "kycsucces" => "KYC başvurunuz zaten kabul edilmiş, detaylara bakmak için aşağıdaki butona tıklayabilirsiniz.",
+    "notkyc"    => "KYC onayınız bulunmuyor. Başvurmak için aşağıdaki butona tıklayabilirsiniz.",
+    "yeskyc"    => "KYC Başvurusu Yap",
+    "kycinfo"   => "Bazı ülkeler ve bölgeler KYC sürecini geçemeyecek ve bu nedenle token satışı kısıtlanmıştır.",
+    "step1"     => "1. Adım: Kişisel Ayrıntılar",
+    "step1desc" => "Kimlik için gerekli olan basit kişisel bilgiler",
+    "step1info" => "Lütfen formu kişisel bilgilerinizle dikkatlice doldurunuz. Formu gönderdikten sonra bu ayrıntıları düzenleyemezsiniz.",
+    "firstname" => "İsim",
+    "lastname"  => "Soyisim",
+    "phone"     => "Telefon Numarası",
+    "mailadres" => "E-posta Adresi",
+    "dateof"    => "Doğum Günü",
+    "country"   => "Ülke",
+    "adress1"   => "Adres",
+    "adress2"   => "Adres 2",
+    "zipcode"   => "Posta Kodu",
+    "city"      => "Şehir",
+    "optional"  => "isteğe bağlı",
+    "step2"     => "2. Adım : Kimlik Doğrulama",
+    "step2desc" => "Kimliğinizi doğrulamak için aşağıdaki seçeneklerden birini seçin resmi yükeyin.",
+    "step2info" => "Lütfen aşağıdaki kişisel belgelerden herhangi birini yükleyin.",
+    "pasaport"  => "Pasaport",
+    "natcart"   => "Kimlik Kartı",
+    "license"   => "Sürücü Lisansı / Belgesi",
+    "pastitle"  => "Hesabı doğrularken gecikmeleri önlemek için lütfen aşağıdakilerden emin olun:",
+    "pas1"      => "Chosen credential must not be expired.",
+    "pas2"      => "Belge iyi durumda ve açıkça görülebilir olmalıdır.",
+    "pas3"      => "Kartta / Belgede ışık parlaması veya yansıma olmadığından emin olun.",
+    "pasupload" => "Buraya Pasaportunuzun fotoğrafını yükleyin",
+    "kimupload" => "Buraya kimlik kartınızın ön yüzünün fotoğrafını yükleyin",
+    "kiupload"  => "Buraya kimlik kartınızın arka yüzünün fotoğrafını yükleyin",
+    "surucutit" => "Buraya sürücü belgenizin fotoğrafını yükleyin",
+    "step3"     => "Step 3 : Your Paying Wallet",
+    "bgonder"   => "Başvuruyu Gönder",
+
+];
